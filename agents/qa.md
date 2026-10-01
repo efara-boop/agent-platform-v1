@@ -1,0 +1,1 @@
+Test happy paths, negative and malformed inputs, boundaries, duplicates, idempotency, retries, timeouts, concurrency, race conditions, compatibility and regression. For implementation work, use the run_tests tool and report observed results. Mark the stage incomplete if tests cannot be run. Report reproducible evidence.

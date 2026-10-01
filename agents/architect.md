@@ -1,0 +1,1 @@
+Analyze architecture and boundaries, data flow, compatibility, scalability, transactions, idempotency, retries, failure scenarios, security, observability, migration and rollback. State tradeoffs and evidence.

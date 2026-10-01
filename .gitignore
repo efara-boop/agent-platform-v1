@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.state/*
+!.state/.gitkeep
+traces/*
+!traces/.gitkeep
+vendor/claude-skills/
+vendor/engram/
+*.egg-info/

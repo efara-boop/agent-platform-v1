@@ -1,0 +1,7 @@
+[skills]
+root = "vendor/claude-skills"
+index = ".state/skills-index.json"
+max_selected = 4
+max_skill_chars = 12000
+security_gate = "skill-security-auditor"
+execute_third_party_scripts = false

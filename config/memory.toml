@@ -1,0 +1,5 @@
+[engram]
+enabled = true
+auto_save_completed = true
+max_recall_chars = 3000
+data_dir = ".state/engram"

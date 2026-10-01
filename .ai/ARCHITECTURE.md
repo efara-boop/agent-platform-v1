@@ -1,0 +1,3 @@
+# Architecture
+
+CLI -> workflow/router -> context, Engram recall and skill selection -> Codex CLI or LM Studio -> per-round usage trace and working state. Codex processes are separate and capped at one. LM Studio requests are capped at one. The request monitor refreshes loaded context metadata, reserves output tokens, calibrates estimates with server usage, and bounds the full serialized request before sending. `.ai/` and Git are the source of truth; Engram stores short reviewed completion records and manually curated lessons in SQLite inside each selected workspace. Third-party skills are indexed by metadata and opened only after routing.

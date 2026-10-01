@@ -1,0 +1,57 @@
+[agents.orchestrator]
+provider = "codex"
+fallback_provider = "lmstudio"
+fallback_model = "qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp"
+prompt = "agents/orchestrator.md"
+temperature = 0.2
+
+[agents.analyst]
+provider = "codex"
+fallback_provider = "lmstudio"
+fallback_model = "qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp"
+prompt = "agents/analyst.md"
+temperature = 0.2
+
+[agents.architect]
+provider = "codex"
+fallback_provider = "lmstudio"
+fallback_model = "qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp"
+prompt = "agents/architect.md"
+temperature = 0.2
+
+[agents.backend]
+provider = "lmstudio"
+model = "huihui-qwen3-coder-30b-a3b-instruct-abliterated-i1"
+prompt = "agents/backend.md"
+temperature = 0.20
+
+[agents.frontend]
+provider = "lmstudio"
+model = "huihui-qwen3-coder-30b-a3b-instruct-abliterated-i1"
+prompt = "agents/frontend.md"
+temperature = 0.30
+
+[agents.database]
+provider = "lmstudio"
+model = "huihui-qwen3-coder-30b-a3b-instruct-abliterated-i1"
+prompt = "agents/database.md"
+temperature = 0.20
+
+[agents.qa]
+provider = "lmstudio"
+model = "huihui-qwen3-coder-30b-a3b-instruct-abliterated-i1"
+prompt = "agents/qa.md"
+temperature = 0.25
+
+[agents.devops]
+provider = "lmstudio"
+model = "huihui-qwen3-coder-30b-a3b-instruct-abliterated-i1"
+prompt = "agents/devops.md"
+temperature = 0.20
+
+[agents.reviewer]
+provider = "codex"
+fallback_provider = "lmstudio"
+fallback_model = "qwen3.6-27b-fable-fusion-711-uncensored-heretic-nm-dau-neo-max-mtp"
+prompt = "agents/reviewer.md"
+temperature = 0.2

@@ -1,0 +1,29 @@
+[filesystem]
+scope = "workspace"
+
+[git]
+read = "allow"
+diff = "allow"
+branch = "allow"
+commit = "approval"
+push = "forbid"
+force_push = "forbid"
+
+[shell]
+scope = "workspace-sandbox"
+tests = "allow"
+lint = "allow"
+build = "allow"
+local_docker = "restricted"
+
+[database]
+local = "read-write"
+staging = "read-only"
+production = "read-only"
+destructive = "approval"
+
+[operations]
+deploy = "approval"
+production_ssh = "approval"
+production_credentials = "forbid"
+openai_api_key = "forbid"

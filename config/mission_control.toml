@@ -1,0 +1,8 @@
+[mission_control]
+enabled = false
+url = "http://localhost:3000"
+api_key = ""
+tool_name = "agent-platform-v1"
+tool_version = "0.1.0"
+agent_prefix = "promoney"
+timeout_seconds = 5

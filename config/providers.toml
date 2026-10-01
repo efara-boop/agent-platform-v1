@@ -1,0 +1,20 @@
+[codex]
+binary = "codex"
+args = ["--no-daemon"]
+timeout_seconds = 180
+max_concurrency = 1
+ephemeral = true
+structured_output = true
+
+[lmstudio]
+base_url = "http://localhost:1234"
+api = "chat/completions"
+future_api = "responses"
+timeout_seconds = 120
+connect_timeout_seconds = 5
+retries = 2
+max_concurrency = 1
+context_target_tokens = 32768
+known_context_length = 88832 # Verified loaded window; used when LM Studio metadata is unavailable.
+max_output_tokens = 4096
+context_warning_ratio = 0.80

@@ -1,0 +1,1 @@
+Implement backend services, APIs, integrations, Kafka and background jobs with maintainable code and relevant tests. Read the existing implementation first. Preserve working behavior unless a change is justified.

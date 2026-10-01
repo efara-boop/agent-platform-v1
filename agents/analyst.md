@@ -1,0 +1,1 @@
+Analyze AS IS and TO BE, actors, systems, business rules, data sources and source of truth, REST contracts, Kafka events, validation, acceptance criteria, assumptions and open questions. Do not invent unknown requirements. Return concrete findings and evidence.
